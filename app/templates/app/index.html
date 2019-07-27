@@ -1,0 +1,447 @@
+{#{% extends "app/layout.html" %}#}
+{#{% load static %}#}
+{#{% block content %}#}
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vinay Kanth Devu</title>
+    <link rel="icon" href="../../static/app/img/favicon.jpg" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href= "{% static 'app/css/bootstrap.min.css' %}" type="text/css" rel="stylesheet">
+    <link href="{% static 'app/ionicons/css/ionicons.min.css' %}" rel="stylesheet">
+    <link href="{% static 'app/css/animate.min.css' %}" rel="stylesheet">
+    <link href="{% static 'app/css/aos.css' %}" rel="stylesheet">
+    <!-- main style -->
+    <link href="{% static 'app/css/style.css' %}" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+
+            <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
+            </div>
+
+        </div>
+    </div>
+    <!-- ./Preloader -->
+
+    <!-- header -->
+    <header class="navbar-fixed-top">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ./header -->
+
+    <!-- home -->
+    <div class="section" id="home" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="disply-table">
+                <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
+                    <h4>Vinay Kanth Devu</h4>
+                    <h1>Software<br /> Developer</h1> </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./home -->
+    
+    <!-- about -->
+    <div class="section" id="about">
+        <div class="container">
+            <div class="col-md-6" data-aos="fade-up">
+                <h4>01</h4>
+                <h1 class="size-50">Know <br /> About me</h1>
+                <div class="h-50"></div>
+                <p>An innovative and committed graduate with passion to have a growth oriented and challenging career in the domain of Software and Web Development, Cloud to tone my experience through continuous learning and exploring.</p>
+                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                <div class="h-50"></div> <img src="../../static/app/img/Signature.svg" width="230" alt="" />
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-6 about-img-div">
+                <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div>
+                <img src="../../static/app/img/about-img.jpg" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+            </div>
+        </div>
+    </div>
+    <!-- ./about -->
+    <!-- experience  -->
+    <div class="section" id="experience">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>02</h4>
+                <h1 class="size-50">My <br /> Experience</h1>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-12">
+                <ul class="timeline">
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">March 2018 - Present</p>
+                            <h3>Backend Developer & Tester</h3>
+                            <h4>One Planet Rating, Stockholm</h4>
+                            <p>My role involves modifying and extending current app features, implementing new features for the web application using Django framework in Python.
+                                <br>Testing, for quality assuring codes, deploying the features to Amazon EC2 production server.
+                                <br />
+                                <br />
+                                <br><strong>Tools: Python, Linux, AWS, PuTTY, WinSCP, Valentina Studio, Bitbucket, pgAdmin, Trello, Slack, PostgreSQL, SQLite, Django, Git, Git Bash.</strong></p>
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">February 2017 – March 2018</p>
+                            <h3>Data Analyst</h3>
+                            <h4>Zen3 Info Solutions, Hyderabad</h4>
+                            <p>I worked as Data Analyst, wherein
+                            <br>I Worked directly with product owners and stakeholders to elicit their feedback on customer satisfaction items using HP service manager ticketing tool.</p>
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".4">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">August 2016 – December 2016</p>
+                            <h3>Softhouse AB, Karlskrona</h3>
+                            <h4>IT-Consultant</h4>
+                            <p>	I’ve worked on creating a Web-based application “Activity Time Tracking System”
+                                <br> Worked as member of a Scrum team of 6 members in Agile Methodology.
+                                <br>Tools and technologies such as Java, HTML, CSS, JavaScript, AngularJs, H2 (database), RESTful API are used.
+                                <br />
+                                <br />
+                            <strong>Tools: Java, IntelliJ IDEA, Junit, Git, HTML, CSS, JavaScript, H2, MySQL</strong></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ./experience -->
+    <!-- education -->
+        <div class="section" id="education">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>03</h4>
+                <h1 class="size-50">My <br /> Education</h1>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-12">
+                <ul class="timeline">
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">2011 - 2015</p>
+                            <h3>Master of Science, M.Sc. (120 Hp)</h3>
+                            <h4>Blekinge Institute of Technology, Karlskrona</h4>
+                                <!--<p>•	    My role involves modifying and extending current app features, implementing new features for the web application using Django framework in Python.&ndash;&gt;-->
+                                <!--<br>•	Testing, for quality assuring codes, deploying the features to Amazon EC2 production server.&ndash;&gt;-->
+                                <!--<br>Tools: Python, Linux, AWS, PuTTY, WinSCP, Valentina Studio, Bitbucket, pgAdmin, Trello, Slack, PostgreSQL, SQLite, Django, Git, Git Bash.</p>&ndash;&gt;-->
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">2015 - 2017</p>
+                            <h3>Bachelor of Science, M.Sc. (180 Hp)</h3>
+                            <h4>Jawaharlal Nehru Technological University, Kakinada</h4>
+                            <!--<p>Konzeption, Design und Produktion von Digitalen Magazinen mit InDesign, der Adobe Digital Publishing Suite und HTML5. Co-Autorin der Fachbücher "Digitales Publizieren für Tablets" und "Adobe Digital Publishing Suite" erschienen im dpunkt.verlag.</p>-->
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- education -->
+    <!-- projects -->
+    <div class="section" id="projects">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>04</h4>
+                <h1 class="size-50">My <br /> Projects</h1> 
+            </div>
+            <!-- main container -->
+            <div class="main-container portfolio-inner clearfix">
+                <!-- portfolio div -->
+                <div class="portfolio-div">
+                    <div class="portfolio">
+                         <!--portfolio_filter -->
+                        <div class="categories-grid wow fadeInLeft">
+                            <nav class="categories">
+                                <ul class="portfolio_filter">
+                                    <li><a href="" class="active" data-filter="*">All</a></li>
+                                    <!--<li><a href="" data-filter=".photography">Photography</a></li>-->
+                                    <!--<li><a href="" data-filter=".logo">Logo</a></li>-->
+                                    <!--<li><a href="" data-filter=".graphics">Graphics</a></li>-->
+                                    <!--<li><a href="" data-filter=".ads">Advertising</a></li>-->
+                                    <!--<li><a href="" data-filter=".fashion">Fashion</a></li>-->
+                                </ul>
+                            </nav>
+                        </div>
+                         <!--portfolio_filter -->
+
+                        <!-- portfolio_container -->
+                        <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6  fashion logo">
+                                <a id="demo01" href="#animatedModal" class="portfolio_item"> <img src="../../static/app/img/portfolio/01.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Robotic Arm</span> <em>(2012 - 3 Months)</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 ads graphics">
+                                <a id="demo02" href="#animatedModal" class="portfolio_item"> <img src="../../static/app/img/portfolio/03.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Floating mockups</span> <em>Ads / Graphics</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 photography">
+                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="../../static/app/img/portfolio/02.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 fashion ads">
+                                <a id="demo04" href="#animatedModal" class="portfolio_item"> <img src="../../static/app/img/portfolio/04.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Held by hands</span> <em>Fashion / Ads</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+
+                            <!-- single work -->
+                            <!--<div class="col-md-4 col-sm-6 graphics ads">-->
+                                <!--<a id="demo05" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/05.jpg" alt="image" class="img-responsive" />-->
+                                    <!--<div class="portfolio_item_hover">-->
+                                        <!--<div class="portfolio-border clearfix">-->
+                                            <!--<div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</a>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; end single work &ndash;&gt;-->
+                            <!---->
+                            <!--&lt;!&ndash; single work &ndash;&gt;-->
+                            <!--<div class="col-md-4 col-sm-6 photography">-->
+                                <!--<a id="demo06" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/010.jpg" alt="image" class="img-responsive" />-->
+                                    <!--<div class="portfolio_item_hover">-->
+                                        <!--<div class="portfolio-border clearfix">-->
+                                            <!--<div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</a>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; end single work &ndash;&gt;-->
+                            <!---->
+                            <!--&lt;!&ndash; single work &ndash;&gt;-->
+                            <!--<div class="col-md-4 col-sm-6 graphics ads">-->
+                                <!--<a id="demo07" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/06.jpg" alt="image" class="img-responsive" />-->
+                                    <!--<div class="portfolio_item_hover">-->
+                                        <!--<div class="portfolio-border clearfix">-->
+                                            <!--<div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</a>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; end single work &ndash;&gt;-->
+                            <!---->
+                            <!--&lt;!&ndash; single work &ndash;&gt;-->
+                            <!--<div class="col-md-4 col-sm-6 graphics ads">-->
+                                <!--<a id="demo08" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/07.jpg" alt="image" class="img-responsive" />-->
+                                    <!--<div class="portfolio_item_hover">-->
+                                        <!--<div class="portfolio-border clearfix">-->
+                                            <!--<div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</a>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash; end single work &ndash;&gt;-->
+                            <!---->
+                            <!--&lt;!&ndash; single work &ndash;&gt;-->
+                            <!--<div class="col-md-4 col-sm-6 graphics ads">-->
+                                <!--<a id="demo09" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/08.jpg" alt="image" class="img-responsive" />-->
+                                    <!--<div class="portfolio_item_hover">-->
+                                        <!--<div class="portfolio-border clearfix">-->
+                                            <!--<div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</a>-->
+                            <!--</div>-->
+                            <!-- end single work -->
+                        </div>
+                        <!-- end portfolio_container -->
+                    </div>
+                    <!-- portfolio -->
+                </div>
+                <!-- end portfolio div -->
+            </div>
+            <!-- end main container -->
+        </div>
+    </div>
+    <!-- ./projects -->
+    <!-- contact -->
+    <div class="section" id="contact">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>05</h4>
+                <h1 class="size-50">Contact  Me</h1>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up">
+
+                <h3>Phone Number</h3>
+                <p>+46-767553115</p>
+                <h3> Mobile Number</h3>
+                <p>+46-767553115</p>
+                <h3>Email</h3>
+                <p>devuvinaykanth@gmail.com</p>
+
+                <h3>Social Network</h3>
+
+                <ul class="social">
+                    <li><a href="https://www.linkedin.com/in/vinay-kanth-devu/"><i class="ion-social-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/vinay459_cc/"><i class="ion-social-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/Vinaykanthdevu"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/iamvinaykanth"><i class="ion-social-twitter"></i></a></li>
+                </ul>
+                <div class="clearfix"></div>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-8" data-aos="fade-up">
+                <form class="contact-bg" id="contact-form" name="contact" method="post" novalidate="novalidate">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" />
+                    <input type="email" name="email" class="form-control" placeholder="Your E-mail" />
+                    <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
+                    <textarea name="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
+                    <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
+                    <div id="success">
+                        <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
+                    </div>
+                    <div id="error">
+                        <p> Something went wrong, try refreshing and submitting the form again. </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- ./contact -->
+
+     <!--DEMO01-->
+    <div id="animatedModal" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal close-popup-modal"> <i class="ion-close-round"></i> </div>
+            <div class="clearfix"></div>
+                <div class="modal-content">
+                    <div class="container">
+                        <div class="portfolio-padding">
+                            <div class="col-md-8 col-md-offset-2">
+                                <h2>Geschäfts Eines<br /> Web-Studios</h2>
+                                <div class="h-50"></div>
+                                <p>http://127.0.0.1:8000/</p>
+                                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                                <br />
+                                <br /> <img src="../../static/app/img/portfolio/01.jpg" alt="" class="img-responsive" />
+                                <br />
+                                <br />
+                                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
+                                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                                <br />
+                                <br />
+
+                                <h2>Geschäfts Eines<br /> Web-Studios</h2>
+                                <div class="h-50"></div>
+                                <p>http://127.0.0.1:8000/</p>
+                                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                                <br />
+                                <br /> <img src="../../static/app/img/portfolio/02.jpg" alt="" class="img-responsive" />
+                                <br />
+                                <br />
+                                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
+                                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                                <br />
+                                <br />
+
+                                <h2>Geschäfts Eines<br /> Web-Studios</h2>
+                                <div class="h-50"></div>
+                                <p>http://127.0.0.1:8000/</p>
+                                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                                <br />
+                                <br /> <img src="../../static/app/img/portfolio/03.jpg" alt="" class="img-responsive" />
+                                <br />
+                                <br />
+                                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
+                                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                                <br />
+                                <br />
+
+
+                                <h2>Geschäfts Eines<br /> Web-Studios</h2>
+                                <div class="h-50"></div>
+                                <p>http://127.0.0.1:8000/</p>
+                                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                                <br />
+                                <br /> <img src="../../static/app/img/portfolio/04.jpg" alt="" class="img-responsive" />
+                                <br />
+                                <br />
+                                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
+                                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                                <br />
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    </div>
+
+        <!-- jQuery -->
+    <script src="{% static 'app/js/jquery.js' %}"></script>
+    <!--  plugins  -->
+    <script src="{% static 'app/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'app/js/plugins.js' %}"></script>
+    <script src="{% static 'app/js/aos.js' %}"></script>
+    <script src="{% static 'app/js/jquery.form.js' %}"></script>
+    <script src="{% static 'app/js/jquery.validate.min.js' %}"></script>
+
+    <!--  main script  -->
+    <script src="{% static 'app/js/custom.js' %}"></script>
+
+</body>
+
+</html>
