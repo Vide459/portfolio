@@ -26,7 +26,7 @@ SECRET_KEY = 't4no#%l%ug(!tt#un4p-3jn&-emr_z#)o!sa4ek@xs#cvjc2rg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['52.14.85.147']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -123,4 +123,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
+# STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
+
+STATIC_ROOT = '../app/static/app/'
