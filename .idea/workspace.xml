@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fef8a567-b0aa-44d1-9574-412686ab26ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/static/app/img/portfolio/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/app/img/portfolio/02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/app/img/portfolio/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/app/img/portfolio/03.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app/img/portfolio/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/app/img/portfolio/03.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,14 +67,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="22" />
-          <entry key="html" value="1333" />
+          <entry key="html" value="1393" />
           <entry key="py" value="131" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="22" />
-          <entry key="HTML" value="1333" />
+          <entry key="HTML" value="1393" />
           <entry key="Python" value="131" />
         </counts>
       </usages-collector>
@@ -109,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="72" column="217" selection-start-line="72" selection-start-column="217" selection-end-line="72" selection-end-column="217" />
+            <state relative-caret-position="221">
+              <caret line="343" column="56" selection-start-line="343" selection-start-column="56" selection-end-line="343" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#form#0;n#div#2;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -454,8 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="72" column="217" selection-start-line="72" selection-start-column="217" selection-end-line="72" selection-end-column="217" />
+        <state relative-caret-position="221">
+          <caret line="343" column="56" selection-start-line="343" selection-start-column="56" selection-end-line="343" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#textarea#0;n#form#0;n#div#2;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
