@@ -443,6 +443,10 @@ a.active {
     padding: 0.25em 1em 0.2em 1em;
 }
 
+#education {
+    padding: 100px 0;
+}
+
 /* projects section
 ==================================================*/
 
