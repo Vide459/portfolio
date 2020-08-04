@@ -47,7 +47,7 @@ h4 {
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #425BB5;
+    color: #f5f5f5;
     margin-left: 40px;
     font-weight: 700;
 }
@@ -59,7 +59,7 @@ h4:before {
     content: "";
     display: block;
     height: 2px;
-    background: #425BB5;
+    background: #f5f5f5;
     top: 9px;
 }
 
